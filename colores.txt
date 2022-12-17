@@ -1,0 +1,4 @@
+Color header    #2B6CB0;
+Color body:     #EDF2F7;
+Color footer 1: #4A5568;
+Color footer 2: #2D3748;

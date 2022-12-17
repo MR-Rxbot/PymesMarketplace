@@ -1,0 +1,7 @@
+para los slider utilize bxslides
+
+jquery cdn para las validaciones
+
+jquery translate para los mensajes traducidos
+
+famcybox pagina pra los slides

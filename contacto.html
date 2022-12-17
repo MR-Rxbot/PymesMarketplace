@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pymes Marketplace</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-logo">
+            <img id="logo" src="icono.png" alt="">
+        </div>
+        <div class="container-nav">
+            <nav id="navbar">
+                <ul id="ul">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="galeria.html">Galeria</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h3>Formulario de contacto</h3>
+
+            <form action="" method="POST" id="form">
+
+                <div class="caja">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+
+                <div class="caja">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido">
+                </div>
+
+                <div class="caja">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="caja comentario">
+                    <label for="comentario">Comentario</label>
+                    <textarea id="textarea"></textarea>
+                </div>
+                
+                <button type="button" id="guardar">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="marcas">
+
+            <img src="footer/apple.png" alt="">
+            <img src="footer/lenovo.png" alt="">
+            <img src="footer/microsoft.png" alt="">
+            <img src="footer/samsung.png" alt="">
+            <img src="footer/xiaomi.png" alt="">
+
+        </div>
+        <div class="logo">
+            <img src="icono.png" alt="logo">
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"
+        integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="js/traduccion.js"></script>
+    <script src="js/form_jquery.js"></script>
+</body>
+
+</html>
