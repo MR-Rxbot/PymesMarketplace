@@ -42,6 +42,8 @@ $("#form").validate({
     }
 })
 
+
+
 $("#guardar").click(function(){
     if($("#form").valid() == false){
         alert("No has llenado los todos los campos")
